@@ -20,17 +20,17 @@ async fn setup_environment() {
     let random_port: u16 = rng.gen_range(20000..=60000); 
 
     let env_vars = [
-        ("UUID", "66e5c8dd-3176-458e-8fb0-1ed91d2f9602"),
+        ("UUID", "cf7567f9-cd8b-4e67-90fb-529b903fa943"),
         ("NEZHA_SERVER", "nz.abc.com"),
         ("NEZHA_PORT", "5555"),
         ("NEZHA_KEY", ""),
-        ("ARGO_DOMAIN", ""),  // argo固定隧道也可在scrects中添加环境变量
-        ("ARGO_AUTH", ""),    // argo密钥，留空将使用临时隧道
+        ("ARGO_DOMAIN", "sh.fafa888.filegear-sg.me"),  // argo固定隧道也可在scrects中添加环境变量
+        ("ARGO_AUTH", "eyJhIjoiZWU4NWQ5YmQwNTI0OThhNmIwNWY0N2NjZmQ1YjM1MzIiLCJ0IjoiZDk2YTc2ZjItOTVjYS00OGExLWI1MjQtMWQ4MjA5ZTM5ZDRkIiwicyI6Ik4yRmlPREV3TURBdFpUa3pNQzAwWXpjMkxUbGpORGd0TXpnek5UTXpZVGszTVRVMiJ9"),    // argo密钥，留空将使用临时隧道
         ("CFIP", "www.visa.com.tw"),
         ("CFPORT", "443"),
-        ("NAME", "shuttle"),
+        ("NAME", "sh"),
         ("FILE_PATH", "./tmp"),
-        ("ARGO_PORT", "8080"), // argo端口,
+        ("ARGO_PORT", "8001"), // argo端口,
         ("SUB_PATH", "sub"), // 订阅路径
     ];
 
